@@ -1,6 +1,6 @@
-# FBI
+# FBI Reloaded
 
-FBI is an open source title manager for the 3DS.
+FBI Reloaded is an improved version of FBI, an open source title manager for the 3DS.
 
 Download: https://github.com/Steveice10/FBI/releases
 
