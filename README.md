@@ -4,8 +4,6 @@ FBI Reloaded is an improved version of FBI, an open source title manager for the
 
 Download: https://github.com/Steveice10/FBI/releases
 
-Requires [devkitARM](http://sourceforge.net/projects/devkitpro/files/devkitARM/), along with 3ds-curl, 3ds-zlib, and 3ds-jansson from the devkitPro pacman repository, to build.
-
 # Features
 
 * Browse and modify the SD card, TWL photos, TWL sounds, save data, and ext save data.
@@ -20,6 +18,16 @@ Requires [devkitARM](http://sourceforge.net/projects/devkitpro/files/devkitARM/)
   * Browse and modify CTR NAND, TWL NAND, and system save data.
   * Dump the raw NAND image to the SD card.
   * Launch titles installed to the system.
+
+# Build (linux)
+
+Requires [devkitARM](http://sourceforge.net/projects/devkitpro/files/devkitARM/), along with 3ds-curl, 3ds-zlib, and 3ds-jansson from the devkitPro pacman repository, to build.
+
+Make sure that the devkitARM variable is assigned (usually `DEVKITARM=/opt/devkitpro/devkitARM` in your shell).
+
+Run `make install` in the FBI-Reloaded directory. Directories named `build` and `output` will be created.
+
+The directly installable CIA and 3dsx files are under `output/3ds-arm/`.
 
 # Credit
 
