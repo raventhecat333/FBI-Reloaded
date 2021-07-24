@@ -2,7 +2,7 @@
 
 FBI Reloaded is an improved version of FBI, an open source title manager for the 3DS.
 
-Download: https://github.com/Steveice10/FBI/releases
+Download: https://github.com/TheRealZora/FBI-Reloaded/releases
 
 # Features
 

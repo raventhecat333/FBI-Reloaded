@@ -1,6 +1,6 @@
 TARGET := 3DS
 
-NAME := FBI
+NAME := FBI Reloaded
 
 BUILD_DIR := build
 OUTPUT_DIR := output
@@ -22,7 +22,7 @@ VERSION_MINOR := $(word 2, $(VERSION_PARTS))
 VERSION_MICRO := $(word 3, $(VERSION_PARTS))
 
 DESCRIPTION := Open source title manager.
-AUTHOR := Steveice10
+AUTHOR := Steveice10, yogsoy, Zora
 
 PRODUCT_CODE := CTR-P-CFBI
 UNIQUE_ID := 0xF8001
