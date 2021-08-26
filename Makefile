@@ -6,7 +6,7 @@ BUILD_DIR := build
 OUTPUT_DIR := output
 INCLUDE_DIRS := include
 SOURCE_DIRS := source
-ROMFS_DIR := romfs
+ROMFS_DIR := romfs_dark
 
 LIBRARY_DIRS += $(DEVKITPRO)/libctru $(DEVKITPRO)/portlibs/armv6k $(DEVKITPRO)/portlibs/3ds
 LIBRARIES += curl mbedtls mbedx509 mbedcrypto jansson z citro3d ctru
